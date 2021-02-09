@@ -10,7 +10,7 @@ module.exports.register = async (server) => {
     method: "GET",
     path: "/",
     handler: async (request, h) => {
-      return "My first hapi server!";
+      return "You can now close this tab and go back to the React App!";
     },
   });
 };
